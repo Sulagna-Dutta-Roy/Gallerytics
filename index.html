@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GalleryTics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Enhancements/darkmode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>GalleryTics</h1>
+                    </a>
+                </div>
+            </div>
+        <ul class="nav">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Join Free</a></li>
+        </ul>
+        <div class="dark-mode-toggle">
+            <input type="checkbox" id="darkModeToggle">
+            <label for="darkModeToggle">
+                <i class="fas fa-moon"></i> <!-- Moon icon for dark mode -->
+                <i class="fas fa-sun"></i> <!-- Sun icon for light mode -->
+            </label>
+        </div>
+        
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>GalleryTics</h1>
+                <p>The internet's source of freely usable images<br/>Powered by creators everywhere</p>
+                <div class="hero-search-form">
+                    <form id="searchForm">
+                        <input type="text" id="searchInput" placeholder="Search free high-resolution photos">
+                        <button type="submit" class="search-btn">Search</button>
+                    </form>
+                </div>
+                <div class="trending-search-tags">
+                    <p>Trending Searches: 
+                        <a href="#">Flower</a>,
+                        <a href="#">Wallpapers</a>,
+                        <a href="#">Sad</a>,
+                        <a href="#">Love</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+    <div class="upload-section">
+        <h2>Upload Your Photos</h2>
+        <form id="upload-form">
+            <input type="file" id="photo-upload" accept="image/*">
+            <button type="submit" class="upload-btn">Upload</button>
+        </form>
+        <div id="uploaded-photos" class="uploaded-photos"></div>
+        <div id="carbon-footprint"></div>
+
+    </div>
+    <div class="image-popup hide">
+        <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <a href="#" class="download-btn">Download Image</a>
+        <img src="" alt="" class="large-img">
+        <button class="controls pre-btns"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="controls nxt-btns"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <section class="gallery"></section>
+   
+    <script src="script.js"></script>
+    <script src="Enhancements/upload.js"></script>
+    <script src="Enhancements/darkmode.js"></script>
+    <script src="Enhancements/carbonfoot.js"></script>
+</body>
+</html>
