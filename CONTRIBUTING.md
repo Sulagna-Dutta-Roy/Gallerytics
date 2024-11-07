@@ -16,11 +16,11 @@ Contributors can enhance the project by implementing new features or improvement
 ## How to Contribute?
 
 - Drop a Star ⭐ in this repo
-- Take a look at the existing [Issues](https://github.com/Sulagna-Dutta-Roy/GGExtensions/issues). 
+- Take a look at the existing [Issues](https://github.com/Sulagna-Dutta-Roy/Gallerytics/issues). 
 - Fork the Repo & create a branch for any issue that you are working on and commit your work.
 - At first raise an issue in which you want to work
 - Then after assigning only then work on that issue & make a PR 
-- Create a [**Pull Request**](https://github.com/Sulagna-Dutta-Roy/GGExtensions/pulls), which will be promptly reviewed and given 
+- Create a [**Pull Request**](https://github.com/Sulagna-Dutta-Roy/Gallerytics/pulls), which will be promptly reviewed and given 
   suggestions for improvements by the community.
 - **REMINDER: Don't raise more than 2 `Issue` at a time**
 - **IMPORTANT: Don't make any type of `Pull Request` until & unless you get assigned to an `Issue`**
@@ -30,18 +30,18 @@ Contributors can enhance the project by implementing new features or improvement
   ![Line](https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif)
 
 ## Submitting a Pull Request?
-**1.** Start by forking the [**GGExtensions**](https://github.com/Sulagna-Dutta-Roy/GGExtensions) repository. Click on the <a href="https://github.com/Sulagna-Dutta-Roy/GGExtensions/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+**1.** Start by forking the [**Gallerytics**](https://github.com/Sulagna-Dutta-Roy/Gallerytics) repository. Click on the <a href="https://github.com/Sulagna-Dutta-Roy/Gallerytics/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
 
 **2.** Clone your forked repository:
 
 ```bash
-git clone https://github.com/Your-Username/GGExtensions.git
+git clone https://github.com/Your-Username/Gallerytics.git
 ```
 
 **3.** Add a reference(remote) to the original repository.
 
 ```bash
-git remote add upstream https://github.com/Sulagna-Dutta-Roy/GGExtensions
+git remote add upstream https://github.com/Sulagna-Dutta-Roy/Gallerytics
 ```
 
 **4.** Check the remotes for this repository.
